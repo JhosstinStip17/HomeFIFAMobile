@@ -1,0 +1,420 @@
+html{
+    width: 100%;
+    height: 100vh;
+}
+
+:root{
+    --color-uno-nav: #030418;
+    --color-dos-nav: #080D26;
+    --color-titulos: #FDFCFE;
+    --color-bordes: #0505AF;
+    --color-iconos: #1D2434;
+    --color-barra-inferior: #141C2D;
+    --color-borde-barra: #887D73;
+    --color-interno: #CAC862;
+
+
+
+}
+
+nav{
+    background:linear-gradient( to right, var(--color-uno-nav)300px, var(--color-dos-nav)1000px, var(--color-uno-nav) 1200px );
+    color: var(--color-titulos);
+    height: 94px;
+    
+}
+
+
+
+nav .nav-link- {
+    color: var(--color-titulos);
+    position: relative;
+    text-decoration: none;
+    transition: .3s;
+}
+
+nav .nav-link-:hover{
+    opacity: 50%;
+}
+
+nav .nav-link- .icon-nav1{
+    position: absolute;
+    top:-28px;
+    right: 600px;
+    transition: .3s;
+}
+
+nav .nav-link- .icon-nav1:hover{
+    transform: scale(0.9);
+}
+
+nav .nav-link- .cant-monedas{
+    font-size: 20px;
+    position: absolute;
+    top: -15px;
+    right: 515px;
+    transition: .3s;
+}
+
+nav .nav-link- .icon-nav2{
+    position: absolute;
+    top: -25px;
+    right: 440px;
+    transition: .3s;
+}
+
+nav .nav-link- .icon-nav2:hover{
+    transform: scale(0.9);
+}
+
+nav .nav-link- .cant-gemas{
+    font-size: 20px;
+    position: absolute;
+    top: -15px;
+    right: 395px;
+    transition: .3s;
+}
+
+nav .nav-link- .icon-nav3{
+    position: absolute;
+    top: -29px;
+    right: 315px;
+    transition: .3s;
+}
+
+nav .nav-link- .icon-nav3:hover{
+    transform: scale(0.9);
+}
+
+nav .nav-link- .cant-point{
+    font-size: 20px;
+    position: absolute;
+    top: -14px;
+    right: 305px;
+    transition: .3s;
+}
+
+nav .nav-link- .icon-nav4{
+    position: absolute;
+    top: -27px;
+    right: 220px;
+    transition: .3s;
+}
+
+nav .nav-link- .icon-nav4:hover{
+    transform: scale(0.9);
+}
+
+nav .nav-link- .icon-nav5{
+    position: absolute;
+    top: -20px;
+    right: 140px;
+    transition: .3s;
+}
+
+nav .nav-link- .icon-nav5:hover{
+    transform: scale(0.9);
+}
+
+nav .nav-link- .icon-nav6{
+    position: absolute;
+    top: -20px;
+    right: 50px;
+    transition: .3s;
+}
+
+nav .nav-link- .icon-nav6:hover{
+    transform: scale(0.9);
+}
+
+nav .navbar-brand- {
+    color: var(--color-titulos);
+    position: relative;
+    text-decoration: none;
+    transition: .3s;
+}
+
+nav .navbar-brand-:hover{
+    opacity: 50%;
+    transform: scale(0.9);
+}
+
+nav .navbar-brand- h2{
+    font-size: 40px;
+    position: absolute;
+    top: -37px;
+    left: 178px;
+    transition: .3s;
+}
+
+nav .navbar-brand- p{
+    position: absolute;
+    font-size: 22px;
+    top: 6px;
+    left: 180px;
+    transition: .3s;
+}
+
+nav .navbar-brand- .Logo{
+    position: absolute;
+    top: -30px;
+    left: 100px;
+    border: #FDFCFE solid 2px;
+    transition: .3s;
+}
+
+main{
+    background: url(../img/fondo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+main .cuadro-a1{
+    height: 120px;
+    width: 120px;
+    background: var(--color-iconos);
+    margin: 120px 0  0 100px;
+    border-radius: 10px;
+    color: var(--color-titulos);
+    transition: .5s;
+}
+
+main .cuadro-a1:hover{
+    transform: scale(0.9);
+}
+
+main .icon-cuadro{
+    margin-top: 15px;
+}
+
+main .cuadro-a{
+    height: 120px;
+    width: 120px;
+    background: var(--color-iconos);
+    margin: 20px 0 0 100px;
+    border-radius: 10px;
+    color: var(--color-titulos);
+    transition: .5s;
+}
+
+main .cuadro-a:hover{
+    transform: scale(0.9);
+}
+
+main .fotoprin{
+    position: relative;
+}
+
+main .fotoprin .jugador{
+    position: absolute;
+    z-index: 0;
+    top: 80px;
+    left:  30px;
+}
+
+main .fotoprin .jugador2{
+    position: absolute;
+    z-index: 2;
+    top: 250px;
+}
+
+main .fotoprin .diamante{
+    position: absolute;
+    z-index: 4;
+    top: 489px;
+    left: -50px;
+}
+
+
+main .cuadro-1{
+    height: 350px;
+    width: 550px;
+    padding: 0;
+    background: var(--color-bordes);
+    margin: 120px 20px 20px 0;
+    border: var(--color-bordes) solid 4px;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+main .cuadro-1:hover{
+    transform: scale(0.98);
+}
+
+main .cuadro-2{
+    height: 350px;
+    width: 280px;
+    background: gray;
+    border: #273846 solid 2px ;
+    margin: 120px 0 20px 0;
+    color: var(--color-titulos);
+    transition: .5s;
+}
+
+main .cuadro-2:hover{
+    transform: scale(0.98);
+}
+
+main .cuadro-3{
+    height: 180px;
+    width: 450px;
+    background: url(../img/fondo2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 10px 120px 0;
+    border: var(--color-bordes) solid 4px;
+    border-radius: 5px;
+    color: var(--color-titulos);
+    position: relative;
+    transition: .5s;
+}
+
+main .cuadro-3:hover{
+    transform: scale(0.98);
+}
+
+main .cuadro-3 .dybala{
+    position: absolute;
+    top: -27px;
+    left: 0;
+}
+
+main .cuadro-3 .texto-1{
+    position: absolute;
+    top: 20px ;
+    right: 40px;
+}
+
+main .cuadro-3 .texto-2{
+    position: absolute;
+    top: 60px;
+    right: 107px;
+}
+
+main .cuadro-4{
+    height: 180px;
+    width: 390px;
+    background: url(../img/fondo3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 0 120px 0;
+    border: var(--color-bordes) solid 4px;
+    border-radius: 5px;
+    color: var(--color-titulos);
+    position: relative;
+    transition: .5s;
+}
+
+main .cuadro-4:hover{
+    transform: scale(0.98);
+}
+
+
+main .cuadro-4 .reus{
+    position: absolute;
+    top: -27px;
+    left: 0;
+}
+
+main .cuadro-4 .texto-1a{
+    position: absolute;
+    top: 20px ;
+    right: 20px;
+}
+
+main .cuadro-4 .texto-2a{
+    position: absolute;
+    top: 60px;
+    right: 79px;
+}
+
+
+main .cuadro-team{
+    background: url(../img/fondo-team.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+    position: relative;
+
+}
+
+main .cuadro-team .texto1{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+
+main .cuadro-team .texto2{
+    position: absolute;
+    top: 70px;
+    left: 20px;
+}
+
+
+main .cuadro-team .escudo{
+    position: absolute;
+    top: 140px;
+    left: 30px;
+}
+
+main .cuadro-team .nivel{
+    position: absolute;
+    top: 130px;
+    right: 5px;
+}
+
+
+main .cuadro-team2{
+    background: linear-gradient(#1E262C 70px, #273846 95px );
+    height:96px ;
+    position: relative;
+}
+
+main .cuadro-team2 .valor1{
+    position: absolute;
+    top: 15px;
+}
+
+main .cuadro-team2 .valor2{
+    position: absolute;
+    top: 55px ;
+}
+
+main .cuadro-team2 .saldo{
+    position: absolute;
+    top: 20px;
+    right: 15px;
+}
+
+footer .barra{
+    height: 82px;
+    padding: 18px 0;
+    border-top: var(--color-borde-barra) solid 5px;
+    border-left: var(--color-borde-barra) solid 2px;
+    background: var(--color-barra-inferior);
+    color: var(--color-titulos);
+    position: relative;
+    transition: .2s;
+}
+
+footer .barra:hover{
+    background: #080b11;
+    border-top: #585552 solid 5px;
+}
+
+footer .barra h3{
+    position: absolute;
+    top: 23px;
+    left: 43%;
+}
+
+footer .barra .icon-barra{
+    position: absolute;
+    top: 17px;
+    left: 30%;
+}
